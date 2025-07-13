@@ -1,0 +1,26 @@
+#####################
+# TENEBRIS Settings #
+#####################
+
+# Thank you for using Tenebris :)
+enabled: true
+
+# Set whether players should be included in the check
+check-players: true
+
+# Set the interval to check for entities in line of sight
+# The unit is ticks; shorter intervals may put more load on the server
+check-period: 10
+
+# Entities specified here will not be hidden, even if they are out of sight
+# Refer to the link below for a full list of available entities:
+# https://jd.papermc.io/paper/1.21.6/org/bukkit/entity/EntityType.html#enum-constant-summary
+excluded-entities:
+
+# Set the range in which checks are performed
+# Wider ranges may increase server load
+# It is recommended to match your server's render-distance
+ignore-radius: 128
+
+# Checks will not be performed in worlds specified here
+excluded-worlds:
