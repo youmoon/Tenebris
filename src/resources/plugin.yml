@@ -1,7 +1,0 @@
-name: Tenebris
-version: '1.0'
-main: io.yeomoon.tenebris.Main
-api-version: '1.21'
-authors:
-  - yeomoon
-description: Hides all entities outside the player's view
